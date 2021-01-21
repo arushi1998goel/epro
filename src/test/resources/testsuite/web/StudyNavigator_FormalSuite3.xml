@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="StudyNavigatorSecond" verbose="10">
+	<listeners>
+
+		<listener class-name="net.medavante.portal.report.TestCaseTrackingListners"></listener>
+
+	</listeners>
+
+	<test name="Medavante-StudyNavigatorTestCases" preserve-order="true"
+		verbose="2">
+
+
+		<classes>
+			
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1461_VerifyMoveVisitOptionToMoveVisitDidntAppear_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1457_VisitWithQueriesCanBeChangedToDestinationVisit_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1524_VerifyChangeAnAssessmentGeneralFlow_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1340_LayoutAndInteractingWithAssessmentDetail_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1459_ChangeVisitOptionWhenObserverForDestinationSubExistOrNot_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1533_MoveAssessmentBtwDiffSubjectAndTempNumb_SIP" />
+      		<class name="net.medavante.regression.testscripts.studynavigator.FPTC_4082_StudySelectorStudyNavigatorUniversity_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1472_ChangeVisitNotAllowedSubjectsOfDiffStudyOrSite_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1546_MoveAssessmentInDifferentSubScreenAndRandNumber_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1526_CantMoveAsshatHasFormItemMap_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1474_VisitChangedToSkippedNullVisit_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1548_MoveAssessmentWhenPageOpenFromVisitDetails_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1431_VerifyFilterSavePreviouslySelectedStatus_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1220_SelectStudyForDisplay_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1140_AddSubjectRegistrationCodeGeneraFlow_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1428_StudyNavigatorLeftSideNavigationMenuGeneralFlow_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1230_SubjectsList_FilterByOption_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1221_StudyNavigatorSelectStudy_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1222_StudyNavigatorStudySelectionSaveAction_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1295_AssessmentsCountMatchToFilterCount_MAP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1224_VerifyAutomaticOpeningOfStudySite_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1483_NonCRClinROAssessAsNotAdministeredbyNotQualified_SIP" />
+			
+		</classes>
+		
+	</test>
+</suite>

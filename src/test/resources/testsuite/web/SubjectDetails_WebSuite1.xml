@@ -1,0 +1,46 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" verbose="10">
+	<test name="Medavante-subjectdetailsTestCases Set 1"
+		preserve-order="true" verbose="2">
+
+
+<classes>
+
+    <class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1143_SubjectDetails_Subject_DeviceRegistrationHistory_MAP"/>
+ 	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1144_SubjectDetails_Observers_DeviceRegistrationHistory_MAP"/><
+ 	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1161_AbilityToUnlockPINFromThePortalForSubject_MAP"/>
+ 	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1162_ShowThAtObserversPINCouldBeUnlockedFromThePortal_MAP"/>
+ 	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1251_SiteUsersShouldNotBeAbleToViewTheRatersDetailsOfAMedAvanteClinician_SIP"/>
+ 	
+ 	
+ 	
+	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1141_SubjectDetailsRegistrationCodeIsntDisplayed_SIP"/>
+ 	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1142_SubjectDetailsDeleteSubject_SIP"/> 
+ 	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1146_ObserverDetailsDeleteObserver_SIP"/>
+	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1147_AddObserverRegistrationCodeGeneralFlow_SIP"/>
+ 	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1149_ScheduleCentralRatingVisit_SIP"/>
+ 	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1150_SubjectDetailsViewAssessments_SIP"/>
+ 	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1151_SubjectDetailsViewVisits_SIP"/> 
+ 	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1153_NavigationToSchedulingScreenFromSubjectDetailsAsASiteUser_SIP"/>
+ 	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1159_verifyEditSubjectConfiguredWithTheMask_SIP"/>
+ 	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1160_ESignPortalDialogDisplayingNotificationText_SIP"/>
+    <class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1163_ReportedOutcomesAvailabilityOfMobilePROSettings_SIP"/>
+ 	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1166_SubjectDetailsStudyNameOpensStudyProfile_SIP"/>
+    <class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1179_ManageAndViewAttachmentsOnSubjectDetailsPage_OldVersionOfSubjectDetails_SIP"/>
+	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1232_LayoutAndInteractWithNotAssignedPROAndObsROformsOnPortal_SIP"/>
+	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1234_LayoutSubmittedFormsWithOverridesAndSkippedQuestions_SIP"/>
+	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1237_ReportedOutcomesDetails_MobilePRO_DisableSubjectObserver_SIP"/>
+	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1238_ReportedOutcomesDetailsMobilePROPossibilityToSelectAnObserver_SIP"/>
+	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1240_EditVisitForSubject_SIP"/> 
+	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1241_DeleteSubjectVisit_SIP"/>
+	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1244_AddUnscheduledVisit_SIP"/>
+	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1245_verifySubjectDetailsConsentToRecord_SIP"/>
+	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1249_TemporaryIDAppearsAsASubjectIdentifierWhileAddingASubject_SIP"/>
+	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1252_SiteUsersCanViewARatersDetails_SIP" /> 
+	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1254_AddUnscheduledCRVisitsAsAMedAvanteUser_MAP"/>
+ 	<class name="net.medavante.regression.testscripts.subjectdetails.FPTC_1255_UsersCanReassignAnAssessmentAfterTheLastAssignedRaterBcomesDeactivated_SIP"/>
+
+
+		</classes>
+	</test>
+</suite>

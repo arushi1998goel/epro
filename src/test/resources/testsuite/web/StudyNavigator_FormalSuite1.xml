@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="StudyNavigatorSuite" verbose="10">
+	<listeners>
+
+		<listener class-name="net.medavante.portal.report.TestCaseTrackingListners"></listener>
+
+	</listeners>
+
+	<test name="Medavante-StudyNavigator_FormalTestCases"
+		preserve-order="true" verbose="2">
+
+		<!-- <groups> <run> <include name="StudyNavigator" /> </run> </groups> -->
+		<classes>
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1293_InteractingWithAssessmentsList_MAP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1158_AddSubjectWithMask_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1403_ViewAutomaticallySubmittedAssessment_MAP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1463_MoveVisitAppearForVisitIsNotAssigned_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1430_SubjectSNFiltersAvailability_SIP" />
+ 			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1306_NavigateToAssessmentDetailsPageAndListView_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1478_EditNotCompletedAssessment_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1226_LayoutAndInteractingWithSubjectsList_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1291_LayoutAndInteractingWithVisitsList_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1353_UserCanNavigateOnNextPredefinedVisitFilter_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1307_AbilityToEditAssessmentDetails_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1174_TrackChangesToCompAssesDurationDateTimer_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1513_ComplClinROEditStartDateTimeDuration_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1515_ComplObsROEditStartDateTimeDuration_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1516_ComplPROEditStartDateTimeDuration_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1517_CompletedAssessmentEditOnlyDuration_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1467_ActionOpNotAppearVisitIsNotInComplete_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1458_VisitInEditingStatusCouldNotMoved_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1460_ChangeVisitWithDiffNumbOfCompletedAssessments_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1470_UserWithoutClaimCantMoveVisit_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1529_CannotMoveNotCompletedAssessment_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.FPTC_1539_MoveAssessmentWithAPaperTranscription_SIP" />
+			
+		</classes>
+	</test>
+</suite>

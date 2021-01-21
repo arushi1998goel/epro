@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" verbose="10">
+
+	<parameter name="pdfngreport-properties"
+		value="F:\Projects\MedAvante_Automation\Medavante-Automation\pdfngreport.properties" />
+
+	<listeners>
+		<listener class-name="com.uttesh.pdfngreport.PDFReportListener" />
+	</listeners>
+
+
+	<test name="Medavante-AllScripts" preserve-order="true" verbose="2">
+		<classes>
+			<class name="com.medavante.testscripts.Login" />
+			<class name="com.medavante.testscripts.AddNewOrganization" />
+			<class name="com.medavante.testscripts.AddNewPeople" />
+			<class name="com.medavante.testscripts.AddNewStudy" />
+			
+		</classes>
+	</test>
+</suite>
+

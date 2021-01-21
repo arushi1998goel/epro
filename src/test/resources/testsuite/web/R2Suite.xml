@@ -1,0 +1,39 @@
+	<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" verbose="10">
+
+	<listeners>
+		<listener class-name="net.medavante.portal.report.TestCaseTrackingListners"></listener>
+	</listeners>
+
+	<test name="Medavante-R2TestCases" preserve-order="true" verbose="2">
+
+		<!-- <groups> <run> <include name="R2" /> </run> </groups> -->
+
+		<classes>
+		
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_1446VerifyObserverListControlsAndAttributes_SIP"/>
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_1148VerifyEditSubject_SIP"/>			
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_1447ToAddObserversForSubject_SIP"/>
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_1154InPortalTrackReasonForChangeOfExisitingSubjectInformation_SIP"/>
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_1449DeleteObserverTest_SIP"/>				
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_1233LayoutAndInteractWithSubmittedClinRoPROAndObsROFormsOnPortalTest_SIP"/>
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_1235ReportedOutcomesDetailsSiteBasedPRODisableParticipantObserve_SIP"/>
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_1236VerifyReportedOutcomesDetailsSitebasedPROEnableParticipantObserver_SIP"/>
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_1239VerifyLayoutOfDisabledPROObsROFormsForTheSpecificSubjectsOnTheVisitDetails_SIP"/>		
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_1451ActivationOfObserver_SIP"/>	
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_1243AssignFormAbleToChangeOtherUsersFormAssignmentInPortal_SIP"/>
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_3309StudyGeneralTabElements_SIP"/>
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_1250MarkAnAssessmentOfVFromTypeAsNotCompleted_SIP"/>
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_1272_RestrictedSubjectTemporaryIDEditingOnPortalTest_SIP"/>
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_3161VerifyEnableAnAnalyticsFunctionalityForAStudy_SIP"/>
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_3322FormsTypeConfigurationTest_SIP"/>
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_1450DeactivationOfObserver_SIP"/>
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_1155VerifySystemProvidesAnOptionToCaptureTheReasonForAChange_SIP"/>
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_1248TemporaryIDAppearsAsASubjectIdentifierWhileEditingSubject_SIP"/>
+			<class name="net.medavante.regression.testscripts.r2suite.R2_FPTC_1519ReassigningToDifferentRatersWhenAssessmentIsCompleted_SIP"/>
+		
+			</classes>
+
+		
+	</test>
+</suite>

@@ -1,0 +1,46 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" verbose="10">
+
+	<listeners>
+		<listener
+			class-name="net.medavante.portal.report.TestCaseTrackingListners"></listener>
+
+	</listeners>
+
+	<test name="Medavante-VU_R4TestCases" preserve-order="true"
+		verbose="2">
+
+
+		<!-- <groups> <run> <include name="R4" /> </run> </groups> -->
+
+		<classes>
+			
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_1106_ToplevelNavigation_MAP" />
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_1107_QualificationLibraryListOfQualificationGroups_SIP" />
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_1108_QualificationLibraryAddQualificationGroupWizard_SIP" />
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_1584_AddSiteStaffGeneralFlow_MAP" />
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_1585_AddSiteStaff_AddAnother_MAP" />
+			<!-- <class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_1594_AddMultipleSiteRatersGeneralFlow_MAP"/> -->
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_2153_AddDefaultEligibilityRuleModalWindow_SIP" />
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_2195_ActionForPartialMatchedRatersGlobalReview_SIP" />
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_2200_ActionforExactMatchedRaters_SIP" />
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_2222_MatchReviewActionForGlobalSiteReviewSiteRaters_MAP" />
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_2650_StudyUniversityTabManagePreRequisiteTraining_MAP" />
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_2656_CertificationCardViewCompletedTraining_SIP" />
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_2804_CertificationCardViewCompletedTrainingSavePrintTrainingCertificate_SIP" />
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_3635_SiteRaterActivationGridClaimsRestriction_SIP" />
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_3636_SiteRaterViewHistoryClaimsRestriction_MAP" />
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_4155_AddMultipleRatersActionNotAvailableForSitePeopleAndSponsor_SIP" />
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_4232_SiteRaterLaunchTrainingCreditForAsset_SIP" />
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_4235_ClinicianLaunchTrainingCreditForAsset_MAP" />
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_4233_CertificationCardViewCompletedTrainingWithCreditFromPreviousAssets_SIP" />
+			<class name="net.medavante.regression.testscripts.r4suite.R4_FPTC_4449_AddSiteRaterFacilitiesStudiesValidationActiveSites_SIP" />
+		
+		</classes>
+	</test>
+</suite> 
+
+
+
+    
+   

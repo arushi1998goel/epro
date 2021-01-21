@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" verbose="10">
+	<test name="Medavante-subjectdetailsTestCases" preserve-order="true"
+		verbose="2">
+
+		<!-- <groups> <run> <include name="subjectdetails" /> </run> </groups> -->
+
+		<classes>
+
+			<class
+				name="net.medavante.regression.testscripts.subjectdetails.SFBTC_1834_InPortal_TheUserWithClaimCanUnlockPINCanResetSubjectsPINifItIsSet_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.subjectdetails.SFBTC_2490_AbilityToUnlockPINFromThePortalForSubject_MAP" />
+			<class
+				name="net.medavante.regression.testscripts.subjectdetails.SFBTC_2491_ShowThAtObserversPINCouldBeUnlockedFromThePortal_MAP" />
+			<class
+				name="net.medavante.regression.testscripts.subjectdetails.SFBTC_2507_SubjectMessages_GeneralFlow_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.subjectdetails.SFBTC_2508_SubjectMessages_Inbox_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.subjectdetails.SFBTC_2589_PossibilityToDeactivateDeviceForObserver_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.subjectdetails.SFBTC_2590_PossibilityToDeactivateDeviceForSubject_SIP" />
+
+
+
+		</classes>
+
+	</test>
+</suite>

@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" verbose="10">
+	<listeners>
+
+		<listener class-name="net.medavante.portal.report.TestCaseTrackingListners"></listener>
+
+	</listeners>
+
+	<test name="Medavante-R1TestCases" preserve-order="true" verbose="2">
+
+		<!-- <groups> <run> <include name="R1" /> </run> </groups> -->
+		<classes>
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_2695AccessCRSourceClaim_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1242_VerifyRaterAssignmentList_SIP" />
+		    <class name="net.medavante.regression.testscripts.r1suite.FPTC_3143_ConfigureVFormInFormsLibraryTest_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1411DoublebookedCRAppointmentsCanceledFromPortalTest_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1414UpdateScheduledCrVisitAppointmentWithNewClinicianAndDateTime_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_4523PreQualificationRaterScaleListTest_MAP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1418CentralRatingInitiateAppointmentTest_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1491MarkAsNotAdminisOrAssignedAndNotAssignedRaterPDFAndAuditHistoryInfo_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1514ChangingDateTimeAndDurationForNotAdministeredNotCompletedAssessments_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1605SiteViewOfScheduledCRVisits_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_3643_ChangeNotificationDateWhileReSchedulingCRVisit_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_3642_ChangeOfNotificationdateWhileSchedulingCRVisit_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_3644_ChangeNotificationDateForCRAppointmentsWithRequestedStatus_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_2768PortalViewSubjectStatusChangeHistory_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_3326_ManageTabletFormSettings_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_3327_UserWithTheRightClaimCanManageTabletFormSettings_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1066_VerifyAnalyticsStudyPersonDashboardsView_MAP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1114VerifyPreQualificationSummaryValuesTest_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_2789_CustomizedSubjectStatus_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_3213_VerifyAnalyticsDashBoard_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_3511_VerifyDashboardManagementScreen_SIP" />
+			
+			
+		</classes>
+	</test>
+</suite>
+
+

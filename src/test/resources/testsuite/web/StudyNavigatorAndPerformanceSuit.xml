@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="StudyNavigatorAndPerformanceSuite" verbose="10">
+<listeners>
+ 
+ <listener class-name="net.medavante.portal.report.TestCaseTrackingListners"></listener>
+ 
+ </listeners>
+ 
+<test name="Medavante-StudyNavigatorTestCases" preserve-order="true"
+		verbose="2">
+
+
+
+		<!-- <groups> <run> <include name="R1" /> </run> </groups> -->
+		
+		<classes>
+			<class name="net.medavante.regression.testscripts.studynavigator.SFBTC_912_LayoutAndInteractingWithSubjectsList_SIP"/>
+            <class name="net.medavante.regression.testscripts.studynavigator.SFBTC_2758_StudyNavigatorStudySelectionSaveAction_SIP"/>
+            <class name="net.medavante.regression.testscripts.studynavigator.SFBTC_2760_AssessmentsListAssessmentsCountMatchToFilterCount_MAP"/> 
+            <class name="net.medavante.regression.testscripts.subjectdetails.SFB_TC_2079SubjectStatusShouldBeBasedOnVisitOrderNotLastUnscheduledVisitWithDiscontinuedStatusCompletion_SIP"/> 
+            <class name="net.medavante.regression.testscripts.studynavigator.SFB_TC_2088SubjectFieldStatusIsDefinedBasedOnTheLastVisitStatus_SIP"/> 
+            <class name="net.medavante.regression.testscripts.subjectdetails.SFBTC_2751_SubjectDetailsViewVisits_SIP" />
+			<class name="net.medavante.regression.testscripts.studynavigator.SFBTC_915_LayoutAndInteractingWithAssessmentsList_MAP"/>
+		</classes>
+</test>
+</suite>

@@ -1,0 +1,93 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="StudyNavigatorAndPerformanceSuite" verbose="10">
+	<listeners>
+
+		<listener
+			class-name="net.medavante.portal.report.TestCaseTrackingListners"></listener>
+
+	</listeners>
+
+	<test name="Medavante-StudyNavigatorTestCases"
+		preserve-order="true" verbose="2">
+
+
+
+		<!-- <groups> <run> <include name="R1" /> </run> </groups> -->
+
+		<classes>
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFB_TC_2180MoveNotAdministeredAssessment_SIP" />
+			<!-- <class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_911_EditNotCompletedAssessment_SIP" /> -->
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_912_LayoutAndInteractingWithSubjectsList_SIP" />
+			<!-- <class -->
+			<!-- 	name="net.medavante.regression.testscripts.studynavigator.SFBTC_913_LayoutAndInteractingWithVisitsList_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_915_LayoutAndInteractingWithAssessmentsList_MAP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_740_SubjectStatusNavigatorFiltersAvailability_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_606_VerifyAbilityToViewRaterProfileFromStudyDashboard_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2668_SubjectsList_FilterByOption_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_745_SelectStudyForDisplay_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_597_ToolbarAreaOnlyOneStudyAvailable_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_598ToolbarAreaAllSitesOption_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFB_TC_2591_StudyNavigatorLeftSideNavigationMenuLayout_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFB_TC_2592_StudyNavigatorLeftSideNavigationMenuGeneralFlow_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2226_MoveAssessmentBetweenDifferentSubjectScreeningAndRandomizationNumbers_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2754_StudyNavigatorSelectStudy_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2197_MoveAssessmentBetweenDifferentSubjectScreeningAndTemporaryIDNumbers_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2196_MoveAssessmentBetweenDifferentSubjectScreeningNumbers_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC2173_MoveNonCRAssessmenTForTheSameDifferentSubject_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2216_MarkAndUnmarkAsNotAdministeredAssessmentForNotAssignedRaterChangesTheStatusOfAssessment_MAP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2206_NonCRClinROAssessmentAsNotAdministeredForQualifiedPersonAndAPersonWhoIsAssignedFromAssessmentDetailsPage_MAP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2202_NonCRClinROAssessmentAsNotAdministeredForQualifiedPersonAndAPersonWhoIsAssignedFromSubjectDetailsPage_MAP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2217_NonCRClinROAssessmentProObsroAndNotAssignedRaterWithoutClaim_MAP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2203NonCRClinROAssessmentAsNotAdministeredByNotQualifiedPersonAndAPersonWhoIsNOTAssignedFromVisitDetailsPage_MAP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_1915_SystemValidatesSubjectNumberWhileCreatingANewSubject_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2044_AddSubjectWithMask_SIP" /> -->
+			<!-- <class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2385AddSubjectRegistrationCodeGeneraFlow_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2221AutomaticSubmissionViewNotesSection_SIP" />
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2134_VerifyLayoutOfVisitDetailScreen_SIP" /> -->
+			
+			<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2149_VerifyVisitWithQueriesCanBeChangedToDestinationVisit_SIP"/>
+
+			<!-- <class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2147_VerifyVisitInEditingStatusCouldNotBeMoved_SIP"/> -->
+
+			<!-- <class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2146_VerifyOptionToChangeVisitInCaseWhenObserverForTheDestinationSubjectExistOrDoesNotExist_SIP" />
+
+		<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2184_MoveAssessmentWithPDFRevisions_SIP" />
+				 -->
+<class
+				name="net.medavante.regression.testscripts.studynavigator.SFBTC_2062_CompletedPROAssessment_EditStartDateTimeAndDuration_SIP" />
+	
+	
+		</classes>
+	</test>
+</suite>

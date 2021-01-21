@@ -1,0 +1,73 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" verbose="10">
+	<test name="Medavante-subjectdetailsTestCases Set 3"
+		preserve-order="true" verbose="2">
+
+
+		<classes>
+
+			<class
+				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1352_VerifyRetainingOfActionsOnQueryPanelVisitDetailScreen_SIP" />
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1448_EditObserver_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1454_DefaultFocusAndSelectionInAllAndNowFilters_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1482_NonCRClinRAssessmentAsNotAdministeredByNotQualifiedPersonAndAPersonWhoIsNotAssignedFromSubjectDetailsPage_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1614_SubjectMedicationsGeneralFlow_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1616_SubjectMedicationsFlagUnflagMedications_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1617_AddEditDeleteNotesForAMedication_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1619_SubjectMedicationsMedicationHistory_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1620_SubjectMessages_Layout_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1621_SubjectMessages_GeneralFlow_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1622_SubjectMessages_Inbox_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1623_SubjectMessages_SentItems_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1624_SubjectMessages_SentItemsIncludeAutomatedOption_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1625_verifySubjectMessages_Drafts_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1626_SubjectMessages_Flagged_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1627_SubjectMessages_PossibilityToManageMessagesContent_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1628_SubjectQuestionnaireGeneraFlow_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1629_SubjectQuestionnaireComplianceRateOfTheSubject_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1630_SubjectQuestionnaireDurationBasedFilter_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1631_SubjectQuestionnaireUserLevelFilter_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1632_SubjectQuestionnaireFlagUnflagQuestionnaire_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1633_SubjectQuestionnaireAddEditDeleteNotesForAQuestionnaire_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1633_VerifySubjectLoggedEventsAddEditDeleteNotes_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1634_SubjectQuestionnaireQuestionnaireScores_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1635_SubjectQuestionnairePossibilityToViewQuestionnaireContent_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1636_SubjectLoggedEventsGeneralFlow_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1637_SubjectLoggedEventsNoEvents_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1638_SubjectLoggedEventsFlaggedEvents_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1639_SubjectLoggedEventsTodayEvents_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1640_SubjectLoggedEventsPastWeekEvents_SIP" /> -->
+
+
+		</classes>
+	</test>
+</suite>

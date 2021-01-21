@@ -1,0 +1,51 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" verbose="10">
+	<test name="Medavante-subjectdetailsTestCases Set 4"
+		preserve-order="true" verbose="2">
+
+
+		<classes>
+
+			<class
+				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1641_VerifySubjectLoggedEventsSetAFlag_SIP" />
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1643_VerifySubjectLoggedEventsClearAFlag_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_1644_SubjectLoggedEventsCannotBeShownWithoutCorrespondingPermissions_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_2716_NotLastUnscheduledVisitDiscontinuedStatusCompletion_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_2717_SubjectStatusShouldbeBasedOnVisitOrder_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_2738_SubjectStatusFlowWithScreenFailedStatus_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_2746_SubjectStatusPossibilityToChangeStatusAfterVisitCompletion_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_2760_CustomizedSubjectStatusScreenFailedLabelDisplaying_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_2764_SubjectStatusCountStatusChangeTotalCount_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_2765_SubjectStatusCountStudyDashboardUserWithoutAccessToSite_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_2767_SubjectStatus_LabelDisplayingForScreenFailedStatus_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_2769_SubjectStatusChangeHistorySystemStatusChangeDisplayedInTheList_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_2770_SubjectStatusSubjectStatusChangeHistoryManualStatusChangeDisplayedInTheList_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_2788_CustomizedSubjectStatusScreenFailedManuallySetFromScreenedToScreenFailed_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_2790_CustomizedSubjectStatusScreenFailedManuallySetFromCompletedToScreenFailed_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_2791_CustomizedSubjectStatusScreenFailedManuallySetFromDiscontinuedToScreenFailed_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_3345_ConfigureAutoGenerationOfTempIDForAStudy_MAP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.FPTC_3346_ConfigureATemporaryIDMaskingForUsingTheAutoGenerateTemporaryID_SIP" /> -->
+<!-- 			<class -->
+<!-- 				name="net.medavante.regression.testscripts.subjectdetails.SFBTC_1834_InPortal_TheUserWithClaimCanUnlockPINCanResetSubjectsPINifItIsSet_SIP" /> -->
+
+
+		</classes>
+	</test>
+</suite>

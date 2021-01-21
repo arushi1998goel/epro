@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MobileQuestionnairesSuite" verbose="10">
+	<listeners>
+		<listener class-name="net.medavante.portal.report.TestCaseTrackingListners"></listener>
+	</listeners>
+	<test name="Medavante-mobileQuestionnairesTestCases"
+		preserve-order="true" verbose="2">
+
+		<classes>
+		    
+		
+		<class name="net.medavante.mobile.testscripts.FPTC_796_QuestionnairesCompletionScreenPresented_SIP" />
+		<class name="net.medavante.mobile.testscripts.FPTC_799_B2BQuestionnairesCompletionScreenNotPresented_SIP" />
+		
+		<class name="net.medavante.mobile.testscripts.FPTC_794_QuestionnairesNavigation_SIP" />
+		
+		 <class name="net.medavante.mobile.testscripts.FPTC_896_QuestionnaireListEnforceAssessmentOrderParticipantObserver_SIP" />
+		<class name="net.medavante.mobile.testscripts.FPTC_959_QuestionnairesAlreadyCompletedQuestionnairesNoEditionPossible_SIP" />
+
+		</classes>
+
+	</test>
+</suite>

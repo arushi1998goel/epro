@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" verbose="10">
+	<listeners>
+
+		<listener class-name="net.medavante.portal.report.TestCaseTrackingListners"></listener>
+
+	</listeners>
+
+	<test name="Medavante-R1TestCases" preserve-order="true" verbose="2">
+
+		<!-- <groups> <run> <include name="R1" /> </run> </groups> -->
+		<classes>
+		    
+		    <class	name="net.medavante.regression.testscripts.r1suite.FPTC_1509CompleteObsROAsseAsPaperTranscriptiFromPortal_SIP" />
+		    <class name="net.medavante.regression.testscripts.r1suite.FPTC_1199VerifySiteUsersCanScheduleCRAppointments_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1253VerifyAddUnscheduledCRAndNonCRVisits_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1197RecallCRVisitAssesment_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1389VerifyCancelRescheduleASelfScheduledCRVisit_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1510VerifyRequiredFieldsInAssessmentDetailsPage_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1381AppointmentHistoryIsUpdatedAfterEachChangeOfCRVisitStatus_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1410CancelCRAppointmentWhenAppointmentHasBeenRemovedFromExchange_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1135CentralRatingAssessmentslistSelfScheduleCRVisitAppointment_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1139AddSubjectTest_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1189CreateAppointmentForCRvisit_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1194DoublebookCRclinicianTest_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1193CreatePlaceholderAppointment_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1211EvaluatePreQualificationSurveysWhenSubmitted_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1228SystemValidatesSubjectNumberWhileEditingASubject_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1247VerifyVisitAssessmentsAssignmentDropDown_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1265VerifyDuplicateScreeningFieldInSubjectDetail_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1271VerifyCreateSubjectWithAutoGenerationOfTemporaryIDOnPortal_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1386RescheduleAssessmentTest_SIP" />
+			<class name="net.medavante.regression.testscripts.r1suite.FPTC_1407CancelScheduleCRVisitAppointmentTest_SIP" />
+			
+			</classes>
+	</test>
+</suite>
+
+

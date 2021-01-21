@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTestSuite" verbose="10">
+
+
+	<listeners>
+		<listener class-name="net.medavante.portal.report.TestCaseTrackingListners"></listener>
+	</listeners>
+
+	<test name="Medavante-SmokeTestCases" preserve-order="true"
+		verbose="2">
+
+		<!-- <groups> <run> <include name="smoke" /> </run> </groups> -->
+
+
+		<classes>
+			<class name="net.medavante.smoke.testscripts.FPTC_2838_AnalyticsDetailsPage_SIP" />
+			<class name="net.medavante.smoke.testscripts.FPTC_2839_SubjectVisitAssessmentDetailsInSitePortal_SIP" />
+			<class name="net.medavante.smoke.testscripts.FPTC_2837_AdministrationTest_SIP" />
+			<class name="net.medavante.smoke.testscripts.FPTC_2828_SubjectDetailsAndRatingDetailsPage_MAP" /> 
+			<class name="net.medavante.smoke.testscripts.FPTC_3764_VerifySubjectAndRatingPagesInSponsorPortal_SIP"/>
+					 
+		</classes>
+	</test>
+</suite>
+

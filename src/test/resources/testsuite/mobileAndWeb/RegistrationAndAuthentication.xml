@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegistrationAndAuthenticationSuite" verbose="10">
+	
+		<listeners>
+		<listener class-name="net.medavante.portal.report.TestCaseTrackingListners"></listener>
+
+	</listeners>
+		<test name="Medavante-mobileRegistrationAndAuthenticationTestCases" preserve-order="true"
+		verbose="2">
+		
+		<classes>
+			<class name="net.medavante.mobile.testscripts.FPTC_486_VerifyIncorrectQRRegistrationCodeProvidedCorrectTextRegistrationCode_SIP" />
+			<class name="net.medavante.mobile.testscripts.FPTC_496_VerifyDeviceRegistrationIncorrectRegistrationCodeProvidedTryAgainFailedThenSucceed_SIP" />
+			<class name="net.medavante.mobile.testscripts.FPTC_525_EstablishIdentityParticipant_SIP" />
+			<class name="net.medavante.mobile.testscripts.FPTC_531_ChangeIdentityParticipantIForgetThePIN_SIP" />
+			<class name="net.medavante.mobile.testscripts.FPTC_950_AuthenticationResetPINObserver_SIP" />
+			</classes>
+
+	</test>
+</suite>

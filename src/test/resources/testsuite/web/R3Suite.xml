@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" verbose="10">
+
+<listeners> <listener class-name="net.medavante.portal.report.TestCaseTrackingListners"></listener>
+
+	</listeners>
+
+	<test name="Medavante-R3TestCases" preserve-order="true" verbose="2">
+	
+	
+  <!-- <groups> <run> <include name="R3" /> </run> </groups> -->
+    
+      <classes>  
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_3125_EditForm_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_3357_DataLock_MAP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_2072_UserIsAbleToClaimToOverrideTheLockedStudyData_SIP"/> 
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_3621_SubjectDetails_YearOfBirth_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_3360_VisibilityofDataLocktab_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_3319_CultureVersionsDatesValidation_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_3620_ConfigureYearOfBirthforSubjects_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_2156_TrainingLibraryAddAssetDialog_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_2157_TrainingLibraryAddCoursedialog_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_2169_TrainingLibraryAddTrainingDialog_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_2355_TrainingLibraryAddTrainingwithTrainingType3rdParty_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_3400_VisitTemplate_ProhibitTemplateOrEventInUseFromBeingDeleted_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_3659_EditSubjectDetailsWithLockedAssessment_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_3660_EditVisitForASubjectWithAllLockedAssessment_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_1056_VerifyView_Analytics_Tile_ActiveOrInactive_Versions_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_1784_VerifyOrganizations_Address_TimezoneLook_Up_GeneralFlow_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_1787_VerifyUserIsAbleToAddEditPersonContactInformationTab_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_2658_ActionsOptionHiddenIfVisitContainsLockedAssessment_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_3658_UnableToModifyAssessmentDetailsForLockedAssessment_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_1342_ViewTheStudyQueriesPanelFromNavigator_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_1646_VerifyTheAbilityToFilterOnlyTheQueriesAssociatedWithTheLoggedInUser_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_1556_ShowThatAUserWithCanManageQueriesIsAbleToPerformDifferntOperationOnQueries_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_1559_ShowUserWithAppropriateClaimIsAbleToCreateNewQuery_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_1569_ShowExpertReviewerRoleIsddedInPeopleAndCouldBeUsedInStudyCliniciansTab_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_1961_UnlockStudy_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_3397_VisitsTemplates_GeneralFlow_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_3407_VerifyQuestionnaireTemplateGeneralFlow_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_3124_VerifyFormAdded_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_1337_VerifyAssessmentsCanBeAssignedToQualifiedRatersOnly_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_3445_StudyGeneralTabConfigureMobilePROInProductTypeSection_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_3669_SetTheDateFromTheCalendarForTheVisit_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_3232_ApplicationsTab_PatientAppSubTab_GeneralFlow_SIP"/>
+       
+        <!-- added two tcs after dashbord fix -->
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_1896_DashboardManagementScreenUserClaimRestrictions_SIP"/>
+        <class name="net.medavante.regression.testscripts.r3suite.R3_FPTC_1899_DashboardManagementScreenAddVersionOption_SIP"/>
+        
+    </classes>
+  </test> 
+</suite> 

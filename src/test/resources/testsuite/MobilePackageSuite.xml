@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" verbose="10">
+	<test name="Medavante-R1TestCases" preserve-order="true" verbose="2">
+		<!-- <groups> <run> <include name="R1" /> </run> </groups> -->
+
+		<classes>
+			<class name="net.medavante.mobility.testscripts.VerifyUserLogin" />
+			<class name="net.medavante.mobility.testscripts.VerifyEventClick" />
+		</classes>
+	</test>
+</suite>

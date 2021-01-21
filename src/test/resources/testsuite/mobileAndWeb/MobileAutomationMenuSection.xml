@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MobileMenuSuite" verbose="10">
+	<listeners>
+		<listener class-name="net.medavante.portal.report.TestCaseTrackingListners"></listener>
+	</listeners>
+<test name="Medavante-mobileMenuTestCases" preserve-order="true"
+		verbose="2">
+
+	<classes>
+	    <class name="net.medavante.mobile.testscripts.FPTC_835_MenuApplyApplicationPreferencesButtons_SIP" />
+		<class name="net.medavante.mobile.testscripts.FPTC_931_VerifyMedicationsAddDeleteEditForParticipantOnPortalSide_SIP" />
+		<class name="net.medavante.mobile.testscripts.FPTC_820_MenuAboutUsScreenParticipant_SIP" />
+		<class name="net.medavante.mobile.testscripts.FPTC_736_VerifySubjectProfileMyAccountParticipant_SIP" />
+		<class name="net.medavante.mobile.testscripts.FPTC_783_VerifyApplicationSideMenuStudyInformationOptionDetails_SIP" />
+		
+		
+	</classes>
+
+</test>
+</suite>
